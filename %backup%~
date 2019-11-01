@@ -1,0 +1,56 @@
+import pandas as pd
+from nltk.stem import PorterStemmer 
+from nltk.stem.snowball import FrenchStemmer
+from nltk.tokenize import word_tokenize
+import unidecode
+from nltk.corpus import wordnet
+from tqdm import tqdm
+
+
+data = {
+    "id" : [],
+    "category" : [],
+}
+stemmed_words = []
+def classifier(df2=None):
+		ps = PorterStemmer()
+		fs = FrenchStemmer()
+		df = pd.read_csv("/home/dev/insurance_nlp/src/Toutes_Assurances.csv", sep=",").fillna(".")
+		if df2 == None:
+				df2 = pd.read_excel("/home/dev/insurance_nlp/src/referentiel_categories.xlsx").fillna("-")
+		data_class = dict((key, []) for key in df2.columns)
+		for idx, row in df2.iterrows():
+				for idx2, elem in enumerate(row):
+						if elem == '-':
+								continue
+						unidecode_elem = unidecode.unidecode(elem)
+						tmp = ps.stem(unidecode_elem)
+						if tmp == elem:
+								tmp = fs.stem(unidecode_elem)
+						data_class[df2.columns[idx2]].append(tmp)
+
+		for idx, row in tqdm(df.iterrows(), total=df.shape[0]):
+				lang = row["Langue"]
+				commentary = unidecode.unidecode(row["Commentaire NPS"])
+				words = word_tokenize(commentary)
+				if lang != "Anglais":
+						stemmed_words = [fs.stem(word) for word in words]
+				else:
+						stemmed_words = [ps.stem(word) for word in words]
+				categories = []
+				for word in stemmed_words:
+						for key in data_class.keys():
+								if word in data_class[key] and key not in categories:
+										categories.append(key)
+				if categories == []:
+						data["category"].append("-")
+				else:
+						data["category"].append(", ".join(categories))
+				data["id"].append(row["ID"])
+		tmp = pd.DataFrame(data)
+		tmp.to_excel("/home/dev/insurance_nlp/src/output_categorie.xlsx", index=False)
+		tmp.to_csv("/home/dev/insurance_nlp/src/output_categorie.csv", index=True)
+
+		
+if __name__ == '__main__':
+		

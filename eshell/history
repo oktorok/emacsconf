@@ -1,0 +1,55 @@
+ls
+go build create_answer.go
+go build create_answer.go
+go build create_answer.go
+go build create_answer.go
+go build create_answer.go
+go build create_answer.go
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+./create_answer 
+.ls/create_answer 
+ls
+rm create_answer
+ls
+cd ..
+ls
+cd ..
+cd csv_parser/
+go build csv_parser.go 
+go build csv_parser.go 
+go build csv_parser.go 
+go build csv_parser.go 
+go build csv_parser.go 
+go build csv_parser.go 
+go build csv_parser.go 
+go build csv_parser.go 
+go build csv_parser.go 
+go build csv_parser.go 
+go build csv_parser.go 
+go build csv_parser.go 
+go build csv_parser.go 
+ls

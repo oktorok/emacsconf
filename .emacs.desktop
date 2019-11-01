@@ -1,0 +1,187 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Oct 31 15:32:00 2019
+;; Desktop file format version 208
+;; Emacs version 26.2
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (23994 65136 43256 104000) (desktop . "208") "jagarcia@pmp1" nil nil ((((minibuffer . t) (tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (background-color . "unspecified-bg") (font . "tty") (height . 43) (width . 190) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "1062-8B9E-94DB-CF3B") (frameset--mini t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 190) (pixel-height . 42) (total-width . 190) (total-height . 42) (normal-height . 1.0) (normal-width . 1.0) (buffer "find_value_handler.py" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 4708) (start . 3681))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("qso" "<b>" "data" "variat" "YoY" "Varia" "varia" "Varia" "Yo" "args.update" "lob" "transform_value" "YoY" "basic" "basico" "vari"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/computator-v1/src/../includes/computator.h" "/home/dev/api-env/api_askr/src/common/functions.py" "/home/jagarcia/api_askr/src/api/lastmonths/handler.py" "/home/jagarcia/api_askr/src/api/main/handler.py" "/home/dev/api-env/api_askr/src/common/database.py" "/home/dev/api-env/api_askr/src/api/data/handler.py" "/home/jagarcia/api_askr_jaume_version/src/utils/kpi_hierarchy.py" "/home/dev/api-env/api_askr/src/common/answers.py" "/home/dev/api-env/api_askr/src/common/functions.py" "/home/dev/api-env/api_askr/src/common/var.py" "/home/dev/api-env/api_askr/src/api/main/handler.py" "/home/dev/api-env/api_askr/src/common/answers.py" "/home/dev/api-env/api_askr/src/common/functions.py" "/home/dev/api-env/api_askr/src/api/data/handler.py" "/home/dev/api-env/api_askr/src/ao" "/home/dev/api-env/api_askr/src/common/functions.py" "/home/jagarcia/api_askr/src/common/functions.py" "/home/jagarcia/api_askr/src/common/answers.py" "/home/jagarcia/api_askr_jaume_version/main.py" "/home/jagarcia/api_askr_jaume_version/src/database.py" "/home/jagarcia/api_askr_jaume_version/main.py" "/home/jagarcia/api_askr_jaume_version/src/database.py" "/home/jagarcia/api_askr_jaume_version/src/nlp_intent_model/Training_intents.py" "/home/jagarcia/api_askr_jaume_version/main.py" "/home/dev/api-env/api_zelros/pre-prod-orange-cfo/clients-orange/cfo/api/src/common/functions.py" "/home/dev/api-env/api_zelros/pre-prod-orange-cfo/clients-orange/cfo/api/src/main.py" "/home/dev/api-env/api_zelros/pre-prod-orange-cfo/clients-orange/cfo/api/src/api/data/handler.py" "/home/dev/api-env/api_zelros/pre-prod-orange-cfo/clients-orange/cfo/api/src/api/compare/handler.py" "/home/dev/api-env/api_zelros/pre-prod-orange-cfo/clients-orange/cfo/api/src/api/data/handler.py" "/home/dev/api-env/api_zelros/pre-prod-orange-cfo/clients-orange/cfo/api/src/common/answers.py" "/home/dev/api-env/api_zelros/pre-prod-orange-cfo/clients-orange/cfo/api/src/config.py" "/home/dev/api-env/api_zelros/pre-prod-orange-cfo/clients-orange/cfo/api/src/common/database.py" "/home/dev/api-env/api_zelros/pre-prod-orange-cfo/clients-orange/cfo/api/src/common/answers.py" "/home/dev/api-env/api_askr/src/api/data/handler.py" "/home/dev/api-env/api_askr/src/api/main/handler.py" "/home/dev/api-env/api_askr/src/main.py" "/home/dev/api-env/api_askr/src/common/functions.py" "/home/dev/api-env/api_askr/src/api/listofdimensions/handler.py" "~/api_askr/src/api/gapbudget/../main/handler.py" "~/api_askr/src/api/listofdimensions/../__init__.py" "~/api_askr/src/api/listofdimensions/__init__.py" "~/api_askr/src/api/gapbudget/__init__.py" "~/api_askr/src/api/listofdimensions/../gapbudget/handler.py" "~/api_askr/src/api/listof/../listofdimensions/handler.py" "~/api_askr/src/api/listof/handler.py" "/home/dev/api-env/api_askr/src/common/functions.py" "/home/dev/api-env/api_askr/src/api/main/handler.py" "/home/dev/api-env/api_askr/src/api/main/../__init__.py" "/home/dev/api-env/api_askr/src/api/main/" "/home/dev/api-env/api_askr/src/api/main/../listof/handler.py" "/home/dev/api-env/api_askr/src/api/gapbudget/../../Training_intents.py" "/home/dev/api-env/api_askr/src/api/gapbudget/../data/handler.py" "/home/dev/api-env/api_askr/src/api/gapbudget/../../__init__.py" "/home/dev/api-env/api_askr/src/api/gapbudget/__init__.py" "/home/dev/api-env/api_askr/src/api/gapbudget/" "/home/dev/api-env/api_askr/src/api/gapbudget/../__init__.py" "/home/dev/api-env/api_askr/src/api/gapbudget/handler.py" "/home/dev/api-env/api_askr/src/api/gapbudget/__init__.py" "/home/dev/api-env/api_askr/src/api/data/../__init__.py" "/home/dev/api-env/api_askr/src/api/data/__" "/home/dev/api-env/api_askr/src/api/gapbudget/../data/__init__.py" "/home/dev/api-env/api_askr/src/api/gapbudget/__init__.py" "/home/dev/api-env/api_askr/src/common/../api/main/handler.py" "/home/dev/api-env/api_askr/src/api/data/../../common/functions.py" "/home/dev/api-env/api_askr/src/api/gapbudget/../data/handler.py" "~/api_askr/src/api/main/../../common/var.py" "/home/dev/api-env/api_askr/src/common/functions.py" "~/api_askr/src/api/lastmonths/handler.py" "~/api_askr/src/api/main/../__init__.py" "/home/dev/api-env/api_askr/src/common/functions.py" "/home/dev/api-env/api_askr/src/api/main/../../common/" "/home/dev/api-env/api_askr/src/api/main/../data/" "/home/dev/api-env/api_askr/src/api/main/" "/home/dev/api-env/api_askr/src/api/main/handler.py" "/home/dev/api-env/api_askr/src/api/main/handler" "~/api_askr/src/api/main/handler.py" "~/.emacs.d/init.el" "~/api_askr/src/api/main/handler.py" "~/api_askr/src/run_api.sh" "~/api_askr/src/api/main/../../Training_intents.py" "~/api_askr/src/api/main/handler.py" "~/api_askr" "~/logs_analisis/server/main.py" "/home/dev/api-env/api_askr/src/Training_intents.py" "~/logs_analisis/intents_detector/" "~/api_askr/src/api/main/../../Training_intents.py" "~/api_askr/src/api/main/handler.py" "~/sql/csv_to_sql/csv_to_sql/types_from_df.py" "~/sql/csv_to_sql/defaults.md" "~/sql/csv_to_sql/csv_to_sql/../defaults.md" "~/sql/csv_to_sql/csv_to_sql/csv_to_sql.py" "/run/user/1001/sql/csv_to_sql/csv_to_sql/../defaults.md" "/run/user/1001/sql/csv_to_sql/csv_to_sql/csv_to_sql.py" "/home/dev/api-env/api_askr/src/common/database.py" "/home/dev/api-env/api_askr/src/common/functions.py" "/home/dev/api-env/api_askr/src/main.py" "/home/dev/api-env/api_askr/src/api/main/../../common/var.py" "~/logs_analisis/tmp.py" "~/.emacs.d/init.el" "~/logs_analisis/search_dims.py"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/jagarcia/api_askr_jaume_version/src/handlers/find_value_handler.py"
+  "find_value_handler.py"
+  'python-mode
+  '(eldoc-mode company-mode elpy-mode flymake-mode highlight-indentation-mode yas-minor-mode)
+  4708
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode . t) (buffer-display-time 23994 60573 66813 668000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/jagarcia/computator-v1/src/main.cpp"
+  "main.cpp"
+  'c++-mode
+  '(abbrev-mode)
+  1102
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode . t) (buffer-display-time 23994 60572 965900 758000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1295 1292 1097))))
+
+(desktop-create-buffer 208
+  "/home/jagarcia/computator-v1/includes/computator.h"
+  "computator.h"
+  'c++-mode
+  '(abbrev-mode)
+  179
+  '(1218 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode . t) (buffer-display-time 23994 60064 924853 286000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (179))))
+
+(desktop-create-buffer 208
+  "/home/dev/api-env/api_askr/src/common/functions.py"
+  "functions.py"
+  'python-mode
+  '(eldoc-mode company-mode elpy-mode flymake-mode highlight-indentation-mode yas-minor-mode)
+  33844
+  '(31949 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode . t) (buffer-display-time 23994 60047 940372 448000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (32009 32033 22047 33146 32438 33617 33290 33250 33841 33249 18362 29248 29969 29904 34049 33843))))
+
+(desktop-create-buffer 208
+  "/home/dev/api-env/api_askr/src/api/main/handler.py"
+  "handler.py"
+  'python-mode
+  '(eldoc-mode company-mode elpy-mode flymake-mode highlight-indentation-mode yas-minor-mode)
+  1424
+  '(2298 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode . t) (buffer-display-time 23994 60002 431228 131000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1588 1161 1588 782 795 1589 1590 1588 1162 1161 1161 2121 1162 1209 1274 1366))))
+
+(desktop-create-buffer 208
+  "/home/dev/api-env/api_askr/src/api/gapbudget/handler.py"
+  "handler.py"
+  'python-mode
+  '(eldoc-mode company-mode elpy-mode flymake-mode highlight-indentation-mode yas-minor-mode)
+  201
+  '(201 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode . t) (buffer-display-time 23994 55301 599908 795000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (201 201 201 201 201 1 201 201 201 201 201 201 201 201 201 201))))
+
+(desktop-create-buffer 208
+  "/home/dev/api-env/api_askr/src/common/database.py"
+  "database.py"
+  'python-mode
+  '(eldoc-mode company-mode elpy-mode flymake-mode highlight-indentation-mode yas-minor-mode)
+  2148
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode . t) (buffer-display-time 23994 54528 261945 482000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/dev/api-env/api_askr/src/api/data/handler.py"
+  "handler.py"
+  'python-mode
+  '(eldoc-mode company-mode elpy-mode flymake-mode highlight-indentation-mode yas-minor-mode)
+  227
+  '(2648 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode . t) (buffer-display-time 23994 54240 391974 565000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (447))))
+
+(desktop-create-buffer 208
+  "/home/jagarcia/api_askr_jaume_version/main.py"
+  "main.py"
+  'python-mode
+  '(eldoc-mode company-mode elpy-mode flymake-mode highlight-indentation-mode yas-minor-mode)
+  755
+  '(1036 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode . t) (buffer-display-time 23994 47432 836424 847000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (445 701 896 879 879 880 150 151))))
+
+(desktop-create-buffer 208
+  "/home/dev/api-env/api_askr/src/common/answers.py"
+  "answers.py"
+  'python-mode
+  '(eldoc-mode company-mode elpy-mode flymake-mode highlight-indentation-mode yas-minor-mode)
+  5594
+  '(6544 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode . t) (buffer-display-time 23992 20861 89693 555000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (5461 6184 8485 6173 1974 1857 5360 5360 6399 6492 5320 3237 1190 19678 5360 5594))))
+
+(desktop-create-buffer 208
+  "/home/dev/api-env/api_askr/src/common/var.py"
+  "var.py"
+  'python-mode
+  '(eldoc-mode company-mode elpy-mode flymake-mode highlight-indentation-mode yas-minor-mode)
+  1201
+  '(1271 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode . t) (buffer-display-time 23992 15358 601429 685000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1201))))
+
+(desktop-create-buffer 208
+  "/home/jagarcia/api_askr_jaume_version/config.py"
+  "config.py"
+  'python-mode
+  '(eldoc-mode company-mode elpy-mode flymake-mode highlight-indentation-mode yas-minor-mode)
+  271
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode . t) (buffer-display-time 23990 50269 888964 543000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/jagarcia/api_askr_jaume_version/run_api.sh"
+  "run_api.sh"
+  'sh-mode
+  nil
+  206
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23990 49988 774949 994000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/jagarcia/api_cv_photos/api_cv_photos/main.py"
+  "main.py"
+  'python-mode
+  '(eldoc-mode company-mode elpy-mode flymake-mode highlight-indentation-mode yas-minor-mode)
+  3521
+  '(663 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode . t) (buffer-display-time 23990 49742 6286 553000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (681 3502 3520 3569 3581))))
+
